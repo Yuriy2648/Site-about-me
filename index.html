@@ -36,7 +36,6 @@
             <div id="point5" title="Луцьк"><a id="city" href="https://uk.wikipedia.org/wiki/%D0%9B%D1%83%D1%86%D1%8C%D0%BA">т</a></div>
             <div id="point6" title="Рівне"><a id="city" href="https://uk.wikipedia.org/wiki/%D0%A0%D1%96%D0%B2%D0%BD%D0%B5">т</a></div>
             <p id="main3">Після закінчення школи я хочу вступити до ЛНТУ.<br> P.s. Напевно в мене цього не вийде</p>
-            <p id="main3"></p>
         </div>
     </div>
     <style>
@@ -224,6 +223,187 @@
             text-decoration: none;
             color: white;
             font-size: 50px;
+        }
+
+        @media (max-width: 500px) {
+
+            body{
+                width: 500px;
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #city{
+                font-size: 15px;
+                text-decoration: none;
+                opacity: 0%;
+            }
+
+            #point1{
+                background-color: green;
+                border-radius: 50px;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                bottom: 295px;
+                left: 205px;
+            }
+
+            #point2{
+                background-color: green;
+                border-radius: 50px;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                bottom: 160px;
+                left: 210px;
+            }
+
+            #point3{
+                background-color: green;
+                border-radius: 50px;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                bottom: 275px;
+                left: 65px;
+            }
+
+            #point4{
+                background-color: green;
+                border-radius: 50px;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                bottom: 230px;
+                left: 25px;
+            }
+
+            #point5{
+                background-color: green;
+                border-radius: 50px;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                bottom: 305px;
+                left: 95px;
+            }
+
+            #point6{
+                background-color: green;
+                border-radius: 50px;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                bottom: 300px;
+                left: 115px;
+            }
+
+            #point1:hover, #point2:hover, #point3:hover, #point4:hover, #point5:hover, #point6:hover {
+                scale: 1.1;
+            }
+
+            #head{
+                width: 500px;
+                height: 1000px;
+                background-color: yellow;
+            }
+
+            #map{
+                width: 450px;
+                height: 500px;
+                position: relative;
+            }
+
+            #me{
+                width: 150px;
+                height: 200px;
+                margin: 10px;
+            }
+
+            #ua{
+                width: 430px;
+                height: 300px;
+                margin: 10px;
+            }
+
+            #social{
+                width: 480px;
+                height: 100px;
+                background-color: yellow;
+                display: flex;
+            }
+
+            #network1, #network2, #network3 {
+                width: 120px;
+                height: 30px;
+                margin: 10px 20px;
+                background-color: purple;
+                box-shadow: 1px 1px 10px black;
+            }
+
+            #network1{
+                background-color: black;
+            }
+
+            #network2{
+                background-color: purple;
+            }
+
+            #network3{
+                background-color: red; 
+            }
+
+            #network1:hover{
+                scale: 1.1;
+            }
+
+            #network2:hover{
+                scale: 1.1;
+            }
+
+            #network3:hover{
+                scale: 1.1;
+            }
+
+            #main{
+                font-size: 18px;
+                color: black;
+                float: right;
+                margin: 10px;
+                width: 300px;
+                height: 200px;
+                font-family: 'Fira Sans Condensed', sans-serif;
+            }
+
+            #main2{
+                font-size: 20px;
+                color: black;
+                float: center;
+                margin: 10px 0px;
+                width: 480px;
+                height: 50px;
+                text-align: center;
+                font-family: 'Fira Sans Condensed', sans-serif;
+            }
+
+            #main3{
+                font-size: 20px;
+                color: black;
+                float: center;
+                margin: 10px;
+                width: 480px;
+                height: 100px;
+                text-align: center;
+                font-family: 'Fira Sans Condensed', sans-serif;
+            }
+
+            #link{
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+            }
         }
     </style>
 </body>
